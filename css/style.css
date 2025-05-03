@@ -95,11 +95,43 @@
     margin: auto;
   }
   
+  #about {
+    padding: 20px;
+  }
+  #about h2{
+    text-align: center;
+  }
+  .about-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
   .about-pic {
     width: 200px;
-    border-radius: 10px;
-    margin: 20px 0;
+    height: auto;
+    border-radius: 8px;
   }
+  
+  .about-content p {
+    flex: 1;
+    margin-top: 2%;
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .about-pic {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  
   
   .skills ul {
     display: flex;
