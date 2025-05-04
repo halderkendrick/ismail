@@ -141,6 +141,22 @@
     padding: 0;
   }
   
+  #experience {
+    text-align: center;
+  }
+  
+  .skills {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .skills ul {
+    text-align: left; /* Keeps bullets and text aligned properly */
+    padding: 0;
+    margin: 0;
+  }
+  
+  
   .skills li {
     background: #f0f0f0;
     padding: 10px 15px;
@@ -169,11 +185,7 @@
     border-top: 1px solid #eee;
   }
   
-  footer nav a {
-    margin: 0 10px;
-    color: #555;
-    text-decoration: none;
-  }
+ 
   
   footer p {
     margin-top: 10px;
@@ -227,5 +239,31 @@
     .nav-menu.active ul {
       display: flex;
     }
+  }
+  #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;     
+    text-align: center;      
+  }
+  
+  #education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .education-details {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .education-details ul {
+    text-align: left;
+    padding: 0;
+    margin: 0;
   }
   
